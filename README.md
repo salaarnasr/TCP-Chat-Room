@@ -1,2 +1,4 @@
 # TCP-Chat-Room
 A TCP connection implemented console based multi-client chat room
+
+Developed a TCP-based multi-client chatroom application with distinct server and client modules. This application enables multiple users to join the server concurrently, allowing seamless real-time interactions. Each message dispatched within the chatroom is tagged with the sender's name, enhancing clarity and conversation flow. The system is engineered with efficient handling mechanisms: clients can disconnect without causing disruptions, and the server can be gracefully shut down without any data loss. To foster transparency and awareness, the server displays real-time notifications on client activity, indicating who joins or disconnects. Similarly, clients are kept abreast of peer connections and disconnections, ensuring an informed and cohesive user experience.
